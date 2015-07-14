@@ -1,0 +1,41 @@
+Applications Memory Usage (kB):
+Uptime: 166507631 Realtime: 192964204
+
+** MEMINFO in pid 12678 [com.somshubra.ragialnotifier] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     4096     4068        0        0     5976     5105      870
+  Dalvik Heap     8822     8660        0        0    18023    15620     2403
+ Dalvik Other      896      896        0        0                           
+        Stack      232      232        0        0                           
+       Cursor        4        4        0        0                           
+      Gfx dev     2040     2040        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1175      316      300        0                           
+    .apk mmap      166        0       56        0                           
+    .ttf mmap       92        0       76        0                           
+    .dex mmap     2860        0     2856        0                           
+    .oat mmap     2288        0     1248        0                           
+    .art mmap     1268      828      108        0                           
+   Other mmap       35        4        0        0                           
+   EGL mtrack    19520    19520        0        0                           
+    GL mtrack     5096     5096        0        0                           
+      Unknown      156      156        0        0                           
+        TOTAL    48750    41820     4648        0    23999    20725     3273
+ 
+ Objects
+               Views:      126         ViewRootImpl:        1
+         AppContexts:        3           Activities:        1
+              Assets:        2        AssetManagers:        2
+       Local Binders:        9        Proxy Binders:       14
+       Parcel memory:        7         Parcel count:       28
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:      136
+  PAGECACHE_OVERFLOW:       41          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       36             76      191/24/10  /data/data/com.somshubra.ragialnotifier/databases/ragial.sqlite

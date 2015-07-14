@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_add_ragial"
+        app:showAsAction="always"
+        android:title="@string/action_add_ragial" 
+        android:titleCondensed="Add"
+        android:icon="@drawable/action_add_white" />
+    <item android:id="@+id/action_restart"
+        app:showAsAction="ifRoom"
+          android:title="@string/string_action_restart"
+          android:icon="@drawable/resfresh_white" />
+
+    <item android:id="@+id/action_web"
+        app:showAsAction="ifRoom"
+        android:title="@string/menu_ragial_website"
+        android:icon="@drawable/ic_open_in_browser_white_24dp"
+        android:orderInCategory="100" />
+
+</menu>

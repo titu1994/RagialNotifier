@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:key="@string/prefs_category_general" android:title="@string/prefs_category_general">
+        <CheckBoxPreference android:key="@string/prefs_key_strict" android:defaultValue="true" android:title="@string/prefs_title_strict_matcing" android:summary="@string/prefs_title_strict" />
+        <ListPreference android:title="@string/prefs_title_search_type" android:dialogTitle="@string/prefs_dialog_search_type_title" android:negativeButtonText="@string/prefs_dialog_cancel" android:positiveButtonText="@string/prefs_dialog_finished" android:key="@string/prefs_key_search_type_key" android:summary="@string/prefs_search_type_summary" android:entryValues="@array/prefs_server_list_values" android:entries="@array/prefs_server_list" android:defaultValue="1"/>
+        <ListPreference android:title="@string/prefs_title_orient" android:dialogTitle="@string/prefs_dialog_title_orient" android:negativeButtonText="@string/prefs_dialog_cancel" android:positiveButtonText="@string/prefs_dialog_finished" android:key="@string/prefs_key_orient" android:summary="@string/prefs_summary_orient" android:entries="@array/prefs_orientation" android:entryValues="@array/prefs_orientation_values" android:defaultValue="0" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_category_notifs" android:key="@string/prefs_category_notifs">
+        <CheckBoxPreference android:key="@string/prefs_key_notifs" android:enabled="true" android:summary="Enable to receive notifications when an item is on sale" android:title="@string/prefs_allow_notifs" android:defaultValue="true"/>
+        <ListPreference android:dialogTitle="@string/prefs_dialog_title_times" android:negativeButtonText="@string/prefs_dialog_cancel" android:positiveButtonText="@string/prefs_dialog_finished" android:title="@string/prefs_time" android:key="@string/prefs_key_period" android:summary="@string/prefs_time_between_searches_summary" android:dependency="@string/prefs_key_notifs" android:entryValues="@array/prefs_intervals_values" android:entries="@array/prefs_intervals" android:defaultValue="1"/>
+        <CheckBoxPreference android:enabled="true" android:title="@string/prefs_title_wifi" android:key="@string/prefs_key_wifi" android:dependency="@string/prefs_key_notifs" android:summary="@string/prefs_summary_wifi" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefs_title_misc" android:key="@string/prefs_key_misc">
+        <Preference android:enabled="true" android:key="@string/prefs_key_donate" android:title="@string/prefs_title_donate" android:summary="@string/prefs_summary_donate" android:selectable="true"/>
+        <Preference android:enabled="true" android:key="@string/prefs_key_lib_ack" android:title="@string/prefs_title_lib_ack" android:summary="@string/prefs_summary_lib_ack" android:selectable="true" />
+        <Preference android:enabled="true" android:key="@string/prefs_key_restart_tutorial" android:title="@string/prefs_title_tutorial" android:summary="@string/prefs_sumary_tutorial" android:selectable="true" />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

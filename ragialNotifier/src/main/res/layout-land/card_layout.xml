@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+	<!-- #BCBDC1 -->
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="8dp" 
+        card_view:cardBackgroundColor="#FFFFFF"
+        card_view:cardElevation="8dp"
+        card_view:contentPadding="8dp">
+
+        <RelativeLayout
+            android:id="@+id/inner_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/label_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/card_layout_name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginBottom="4dp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"/>
+
+            <TextView
+                android:id="@+id/label_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/label_name"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="@string/card_layout_no"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/label_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/label_name"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/label_name"
+                android:gravity="center"
+                android:text="@string/card_layout_min"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/label_avg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_layout_avg"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/label_max"
+                android:layout_toRightOf="@+id/label_max"
+                android:layout_toEndOf="@+id/label_max"
+                android:layout_marginLeft="89dp"
+                android:layout_marginStart="89dp" />
+
+            <TextView
+                android:id="@+id/short_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/label_count"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/card_layout_count"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/short_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/short_count"
+                android:layout_alignBottom="@+id/short_count"
+                android:layout_alignLeft="@+id/label_min"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/card_layout_min"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/short_conf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/short_std"
+                android:layout_alignBottom="@+id/short_std"
+                android:layout_alignParentRight="true"
+                android:text="@string/card_layout_conf"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/short_std"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/short_avg"
+                android:layout_alignBottom="@+id/short_avg"
+                android:layout_alignLeft="@+id/label_std"
+                android:layout_marginLeft="0dp"
+                android:text="@string/card_layout_dev"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/short_avg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/short_max"
+                android:layout_alignBottom="@+id/short_max"
+                android:layout_alignLeft="@+id/label_avg"
+                android:text="@string/card_layout_avg"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/short_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/short_min"
+                android:layout_alignBottom="@+id/short_min"
+                android:layout_alignLeft="@+id/label_max"
+                android:text="@string/card_layout_max"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/label_confidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/card_layout_conf"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:layout_above="@+id/short_count"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/long_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/short_count"
+                android:layout_below="@+id/short_count"
+                android:layout_marginTop="20dp"
+                android:text="@string/card_layout_count"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/long_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/long_count"
+                android:layout_alignBottom="@+id/long_count"
+                android:layout_alignLeft="@+id/short_min"
+                android:layout_marginRight="8dp"
+                android:text="@string/card_layout_min"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/long_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/long_min"
+                android:layout_alignBottom="@+id/long_min"
+                android:layout_alignLeft="@+id/short_max"
+                android:text="@string/card_layout_max"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/long_avg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/long_max"
+                android:layout_alignBottom="@+id/long_max"
+                android:layout_alignLeft="@+id/short_avg"
+                android:text="@string/card_layout_avg"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/long_conf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/long_std"
+                android:layout_alignParentRight="true"
+                android:text="@string/card_layout_conf"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/long_std"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/long_avg"
+                android:layout_alignBottom="@+id/long_avg"
+                android:layout_alignLeft="@+id/short_std"
+                android:layout_marginLeft="0dp"
+                android:text="@string/card_layout_dev"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/ragial_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/label_min"
+                android:layout_alignLeft="@+id/label_min"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:freezesText="true"
+                android:scrollHorizontally="true"/>
+
+            <TextView
+                android:id="@+id/label_std"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="18dp"
+                android:gravity="center"
+                android:text="@string/card_layout_dev"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:layout_marginEnd="18dp"
+                android:layout_above="@+id/short_count"
+                android:layout_toLeftOf="@+id/label_confidence"
+                android:layout_toStartOf="@+id/label_confidence" />
+
+            <TextView
+                android:id="@+id/label_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/card_layout_max"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"
+                android:layout_marginLeft="59dp"
+                android:layout_marginStart="59dp"
+                android:layout_alignTop="@+id/label_min"
+                android:layout_toRightOf="@+id/label_min"
+                android:layout_toEndOf="@+id/label_min" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

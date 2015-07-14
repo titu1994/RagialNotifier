@@ -1,0 +1,40 @@
+    <resources>
+        <string-array name="prefs_intervals">
+            <item >Every 1 Hour</item>
+            <item >Every 2 Hours</item>
+            <item >Every 4 Hours</item>
+            <item >Every 8 Hours</item>
+            <item >Every 12 hours</item>
+            <item >Every Day</item>
+        </string-array>
+        <string-array name="prefs_intervals_values">
+            <item >60</item>
+            <item >120</item>
+            <item >240</item>
+            <item >480</item>
+            <item >720</item>
+            <item >1440</item>
+        </string-array>
+
+        <string-array name="prefs_server_list">
+            <item>Renewal</item>
+            <item>Classic</item>
+            <item>Thor</item>
+        </string-array>
+        <string-array name="prefs_server_list_values">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+        </string-array>
+
+        <string-array name="prefs_orientation">
+            <item>Landscape</item>
+            <item>Portrait</item>
+            <item>Auto</item>
+        </string-array>
+        <string-array name="prefs_orientation_values">
+            <item>1</item>
+            <item>2</item>
+            <item>0</item>
+        </string-array>
+    </resources>

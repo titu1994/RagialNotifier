@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ragial Notifier</string>
+    <string name="title_section1">Home</string>
+    <string name="title_section2">Settings</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_ragial">Add Item</string>
+    <string name="string_action_restart">Refresh</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="prefs_allow_notifs">Allow Notification</string>
+    <string name="prefs_time">Amount of time between searches</string>
+    <string name="prefs_key_notifs">NotificationKey</string>
+    <string name="prefs_key_period">TimePeriodKey</string>
+    <string name="prefs_key_strict">StrictName</string>
+    <string name="prefs_title_strict">Match the name of an item, word to word, including card slots and enhancements.</string>
+    <string name="prefs_title_strict_matcing">Enable strict name check</string>
+    <string name="prefs_category_general">General</string>
+    <string name="prefs_category_notifs">Notifications</string>
+    <string name="prefs_dialog_title_times">Check Time</string>
+    <string name="prefs_dialog_message_times">Check Ragial every ... minutes</string>
+    <string name="prefs_dialog_finished">Finished</string>
+    <string name="prefs_dialog_cancel">Cancel</string>
+    <string name="prefs_key_wifi">WifiOnly</string>
+    <string name="prefs_title_wifi">Only when on WiFi</string>
+    <string name="prefs_summary_wifi">Check Ragial only when device is connected to WiFi</string>
+    <string name="prefs_key_donate">KEY_DONATE</string>
+    <string name="prefs_title_donate">Donate to Ragial</string>
+    <string name="prefs_summary_donate">Donate to the Ragial Service</string>
+    <string name="prefs_title_misc">Misc.</string>
+    <string name="prefs_key_misc">MISC_PREF_KEY</string>
+    <string name="prefs_key_lib_ack">KEY_LIB_ACK</string>
+    <string name="prefs_title_lib_ack">Libraries used</string>
+    <string name="prefs_summary_lib_ack">Libraries used in the application</string>
+    <string name="title_activity_library_ack">LibraryAckActivity</string>
+    <string name="prefs_title_search_type" >Search type</string>
+    <string name="prefs_dialog_search_type_title">Select which server to search</string>
+    <string name="prefs_key_search_type_key">SEARCH_TYPE_KEY</string>
+    <string name="prefs_key_restart_tutorial">KEY_TUTORIAL</string>
+    <string name="prefs_title_tutorial">Start Tutorial</string>
+    <string name="prefs_sumary_tutorial">Starts the tutorial</string>
+    <string name="prefs_key_orient">KEY_ORIENTATION</string>
+    <string name="prefs_title_orient">Orientation</string>
+    <string name="prefs_dialog_title_orient">Choose orientation</string>
+    <string name="prefs_summary_orient">Select Orientation</string>
+
+    
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="card_layout_name">Name</string>
+    <string name="card_layout_no">No.</string>
+    <string name="card_layout_min">Min</string>
+    <string name="card_layout_avg">Avg</string>
+    <string name="card_layout_count">Count</string>
+    <string name="card_layout_conf">Conf</string>
+    <string name="card_layout_dev">Def</string>
+    <string name="card_layout_max">Max</string>
+    <string name="card_venders_vname">VName</string>
+    <string name="card_venders_vend_count">Vend Count</string>
+    <string name="card_venders_vend_price">Vend Price</string>
+    <string name="card_venders_vend_shop">Vend Shop</string>
+    <string name="card_venders_vend_std">Vend Std</string>
+    <string name="card_venders_vend_type">V</string>
+    <string name="fragent_intro_footer">Footer</string>
+    <string name="fragment_intro_done">Done</string>
+    <string name="menu_notify">Notify</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_ragial_website">Ragial.com</string>
+    <string name="prefs_search_type_summary">Choose between Renewal, Classic and Thor servers</string>
+    <string name="prefs_time_between_searches_summary">Set the number of minutes between two searches. Note, low numbers can drain the battery quickly.</string>
+
+
+</resources>

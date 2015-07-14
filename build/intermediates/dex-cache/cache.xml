@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f7e239e86ef994de894818fdd8a71d2e89d6aa">
+        <dex dex="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\debug\classes-31cc25807171cb1e52b7a42a721d897cf14edab0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\debug\classes-6fc1fb86a656ba509f0a88be20e298d8ee885b12.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\debug\classes-b53047672c847a6d27713cbeb925aea735f66f6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\Ragial-2\Ragial2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2a049582f8c37ab8f2ea96369cfe205fd280a68">
+        <dex dex="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\Ragial2-33a007a4de8c6d448b5d292f6866ccd2f6acab28.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-dff36a44b21e98e91f1f38125ecb0a68b6dec08a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\debug\classes-ab759a498c350f0d43dc2980d2155539b043c2b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yue\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-4b0dfa81e7e9cdedab9d999b28ba79858ed069c4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\design\22.2.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\debug\classes-c70bfc07bb8659819c1882ad63e21d400317cf85.jar" />
+    </item>
+
+</items>
