@@ -22,6 +22,7 @@
         <item name="colorPrimaryDark">#1565C0</item>
         <item name="colorAccent">#1E88E5</item>
         <item name="windowActionModeOverlay">true</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
     </style>
 
 </resources>

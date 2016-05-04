@@ -1,9 +1,0 @@
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\classes\release
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\support-annotations-22.2.0-4b0dfa81e7e9cdedab9d999b28ba79858ed069c4.jar
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\classes-31cc25807171cb1e52b7a42a721d897cf14edab0.jar
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\classes-c70bfc07bb8659819c1882ad63e21d400317cf85.jar
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\internal_impl-22.2.0-dff36a44b21e98e91f1f38125ecb0a68b6dec08a.jar
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\classes-b53047672c847a6d27713cbeb925aea735f66f6c.jar
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\Ragial2-33a007a4de8c6d448b5d292f6866ccd2f6acab28.jar
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\classes-ab759a498c350f0d43dc2980d2155539b043c2b7.jar
-C:\Users\Yue\AndroidstudioProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\classes-6fc1fb86a656ba509f0a88be20e298d8ee885b12.jar

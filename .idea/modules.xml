@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Materials Animations/Materials Animations.iml" filepath="$PROJECT_DIR$/Materials Animations/Materials Animations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ragial-2/Ragial-2.iml" filepath="$PROJECT_DIR$/Ragial-2/Ragial-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/RagialNotifier.iml" filepath="$PROJECT_DIR$/RagialNotifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/ragialNotifier/ragialNotifier.iml" filepath="$PROJECT_DIR$/ragialNotifier/ragialNotifier.iml" />

@@ -105,7 +105,7 @@ public class RagialQueryHelper {
                 if(!isDisconected) {
                     if(datas != null && !isCancelled() ) {
                         RagialDataInsert inserter = new RagialDataInsert(context, query[0]);
-                        inserter.executeOnExecutor(executer, datas);
+                        inserter.execute(datas);
                     }
                 }
                 else {
@@ -204,7 +204,7 @@ public class RagialQueryHelper {
                                         //Log.i(TAG, "Cursor for data : " + data.name + " closed.");
                                         RagialDataUpdate inserter = new RagialDataUpdate(context, uri, true);
                                         if(isExecutorAvailable())
-                                            inserter.executeOnExecutor(executer, datas);
+                                            inserter.execute(datas);
                                     }
                                 }
                             }
@@ -288,7 +288,7 @@ public class RagialQueryHelper {
 
                                                     RagialDataUpdate updater = new RagialDataUpdate(context, uri, false);
                                                     if(isExecutorAvailable())
-                                                        updater.executeOnExecutor(executer, data);
+                                                        updater.execute(data);
 
                                                     break;
                                                 }
