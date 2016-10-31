@@ -25,6 +25,7 @@ import com.somshubra.ragialnotifier.settings.SettingsActivity.RagialPreferences;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.Vector;
 import java.util.concurrent.ExecutionException;
 
 public class RagialNotifierService extends IntentService {
@@ -112,7 +113,7 @@ public class RagialNotifierService extends IntentService {
 
 	private void handleEveryName(String name, ArrayList<String> notificationNames) {
 		try {
-			ArrayList<VendingNow> vends = matcher.getOnSaleItems(name, datas).get();
+			Vector<VendingNow> vends = matcher.getOnSaleItems(name, datas).get();
 			if(vends != null && vends.size() > 0) {
 				notificationNames.add(name);
 			}

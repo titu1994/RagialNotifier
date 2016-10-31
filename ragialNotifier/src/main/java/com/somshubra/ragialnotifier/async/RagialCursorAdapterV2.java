@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.graphics.Color;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -46,7 +47,7 @@ public class RagialCursorAdapterV2 extends CursorRecyclerViewAdapter<RagialCurso
 
         //Log.d("RagialCAdapter2", "Selected Array : " + selectedArray.toString());
         v.cv.setCardBackgroundColor(selectedArray.get(pos, false) ? Color.LTGRAY : Color.WHITE);
-        //Log.d("RagialCAdapter2", "Selected item : " + selectedArray.get(pos, false) + " at " + pos + " with name : " + i.ragialName);
+        Log.d("RagialCAdapter2", "Selected item : " + selectedArray.get(pos, false) + " at " + pos + " with name : " + i.ragialName);
         v.ragialName.setText(i.ragialName);
         v.ragialName.setSelected(true);
 
@@ -181,11 +182,11 @@ public class RagialCursorAdapterV2 extends CursorRecyclerViewAdapter<RagialCurso
     public void toggleSelection(int position) {
 
         if (selectedArray.get(position, false)) {
-            //Log.d("RagialCAdapter2", "Unselected item : " + position);
+            Log.d("RagialCAdapter2", "Unselected item : " + position);
             selectedArray.put(position, false);
         }
         else {
-            //Log.d("RagialCAdapter2", "Selected item : " + position);
+            Log.d("RagialCAdapter2", "Selected item : " + position);
             selectedArray.put(position, true);
         }
         notifyItemChanged(position);

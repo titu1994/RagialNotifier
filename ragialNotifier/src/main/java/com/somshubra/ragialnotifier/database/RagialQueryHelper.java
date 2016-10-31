@@ -54,14 +54,24 @@ public class RagialQueryHelper {
 
     public void queryRagial(String query) {
         if(isExecutorAvailable()) {
-            queryThread = new QueryThread();
+            SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
+            boolean strict = sp.getBoolean("StrictName", true);
+
+            queryThread = new QueryThread(strict);
             queryThread.executeOnExecutor(executer, query);
         }
     }
 
+    @SuppressWarnings("WrongThread")
     private static class QueryThread extends AsyncTask<String, Void, RagialData[]> {
 
         private ProgressDialog pd;
+
+        boolean strict;
+
+        public QueryThread(boolean strict) {
+            this.strict = strict;
+        }
 
         @Override
         protected void onPreExecute() {
@@ -93,7 +103,7 @@ public class RagialQueryHelper {
 
             if(!isCancelled()) {
                 try {
-                    datas = matcher.searchRagial(query[0]).get();
+                    datas = matcher.searchRagial(query[0], strict).get();
                 } catch (InterruptedException | ExecutionException e) {
                     e.printStackTrace();
                     isDisconected = true;
@@ -119,12 +129,18 @@ public class RagialQueryHelper {
 
     public void updateQuery(String name) {
         if(isExecutorAvailable()) {
+            SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
+            boolean strict = sp.getBoolean("StrictName", true);
+
             venderThread = new QueryVenderThread();
+            venderThread.strict = strict;
             venderThread.executeOnExecutor(executer, name);
         }
     }
 
+    @SuppressWarnings("WrongThread")
     private class QueryVenderThread extends AsyncTask<String, Void, RagialData[]> {
+        boolean strict;
 
         private ProgressDialog pd;
 
@@ -163,7 +179,7 @@ public class RagialQueryHelper {
 
                 try {
                     if(RagialQueryMatcher.isExecutorAvailable())
-                        datas = matcher.searchRagial(query[0]).get();
+                        datas = matcher.searchRagial(query[0], strict).get();
                     isDisconnected = false;
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -227,13 +243,19 @@ public class RagialQueryHelper {
 
     public void updateAllQuery() {
         if(isExecutorAvailable()) {
+            SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
+            boolean strict = sp.getBoolean("StrictName", true);
+
             requeryThread = new ReQueryThread();
+            requeryThread.strict = strict;
             requeryThread.executeOnExecutor(executer);
 
         }
     }
 
+    @SuppressWarnings("WrongThread")
     private static class ReQueryThread extends AsyncTask<Void, Void, Void> {
+        boolean strict;
 
         private String projection[] = new String[] { RagialDatabase._ID , RagialDatabase.COL_RAGIAL_NAME};
         private boolean nameNotFound = false;
@@ -262,7 +284,7 @@ public class RagialQueryHelper {
                                 try {
                                     //Log.d(TAG, "Item name : " + name);
                                     if(RagialQueryMatcher.isExecutorAvailable())
-                                        datas = matcher.searchRagial(name).get();
+                                        datas = matcher.searchRagial(name, strict).get();
                                     isDisconnected = false;
 
                                 } catch (InterruptedException | ExecutionException e) {
@@ -347,7 +369,11 @@ public class RagialQueryHelper {
      */
     public void getAllRagial(boolean getImmediately) {
         if(isExecutorAvailable()) {
+            SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
+            boolean strict = sp.getBoolean("StrictName", true);
+
             getAllRagial = new GetAllRagialTask();
+            getAllRagial.strict = strict;
 
             if(getImmediately) {
                 try {
@@ -363,6 +389,7 @@ public class RagialQueryHelper {
     }
 
     private static class GetAllRagialTask extends AsyncTask<Void, Void, RagialData[]> {
+        boolean strict;
 
         private boolean isDisconected;
 
@@ -404,7 +431,7 @@ public class RagialQueryHelper {
 
                             try {
                                 if(RagialQueryMatcher.isExecutorAvailable())
-                                    datas = matcher.searchRagial(name).get();
+                                    datas = matcher.searchRagial(name, strict).get();
                                 isDisconnected = false;
 
                             } catch (InterruptedException | ExecutionException e) {

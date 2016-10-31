@@ -222,7 +222,7 @@ public class RagialListFragment extends Fragment implements LoaderManager.Loader
             }
         });
 
-        rv.addOnItemTouchListener(swiper);
+        //rv.addOnItemTouchListener(swiper);
 
         return v;
     }
