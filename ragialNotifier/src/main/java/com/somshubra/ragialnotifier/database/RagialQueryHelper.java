@@ -529,6 +529,17 @@ public class RagialQueryHelper {
         return list;
     }
 
+    public static LinkedList<String> loadArray(SharedPreferences prefs) {
+        String json = prefs.getString(RAGIAL_GSON_REQUEST, "");
+        Gson gson = new Gson();
+
+        LinkedList<String> list = null;
+        Type collectionType = new TypeToken<LinkedList<String>>(){}.getType();
+        list = gson.fromJson(json, collectionType);
+
+        return list;
+    }
+
     public static LinkedList<String> loadArray(Context context) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         String json = prefs.getString(RAGIAL_GSON_REQUEST, "");

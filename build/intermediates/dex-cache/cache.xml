@@ -2,184 +2,193 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\internal_impl-25.0.0_74401f3d82befda391b02d1a5ce1ed74324e358c.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_74401f3d82befda391b02d1a5ce1ed74324e358c\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-support-core-utils-25.0.0_f977062eede76a6d676d0da113f97132548a4dd3.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-25.0.0_9bc6de03547571c45e7b2016f939587c934ea081.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_9bc6de03547571c45e7b2016f939587c934ea081\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\internal_impl-25.0.0_7c3f9d1fc0e4672ec6d1668c750dcdb277e01878.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\internal_impl-25.0.0_513fb070d68576d23042f00ed2c3f053dfd318fa.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_513fb070d68576d23042f00ed2c3f053dfd318fa\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-support-v4-25.0.0_a177e063405095f77646a2d43111d38a1c8c8c96.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-25.0.0_cf93adae9cbc93f70e050c0b595060057341b218.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-25.0.0_033b83b7d2aa070f8a699dc3f5a8110126a795c5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\Ragial-2\Ragial2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c29c07183047f784cdcf345048276e4b6553a34f">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\Ragial2_df473ae262ec9395e5554c403af1954312c71c1a.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-support-core-ui-25.0.0_342ec9254115235c69e8c29b5855149e8fe72914.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_342ec9254115235c69e8c29b5855149e8fe72914\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-cardview-v7-25.0.0_a3140b62eefeec88de8f6ffb752e34bab0fb268c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-support-media-compat-25.0.0_ef3ed6d1df3d114b3db81c3a96ca9f9e245c6766.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\internal_impl-25.0.0_42abd773f97ae2742ba1edfbaf38c6b51e9e5de9.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_42abd773f97ae2742ba1edfbaf38c6b51e9e5de9\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-25.0.0_72c8928533a3ea4d80840a57fc151658a1c6c2c7.jar" />
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_ef3ed6d1df3d114b3db81c3a96ca9f9e245c6766\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_cf93adae9cbc93f70e050c0b595060057341b218\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_a177e063405095f77646a2d43111d38a1c8c8c96\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a372c4191f80489770a231f7be4820b204b886a">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_a3140b62eefeec88de8f6ffb752e34bab0fb268c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\internal_impl-25.0.0_ab10f82b2a36326c361449161e87a189a4947daa.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_ab10f82b2a36326c361449161e87a189a4947daa\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-support-fragment-25.0.0_8e510477af6f3f7b68921626d8a8dd88b96f04ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="D:\Users\Yue\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\support-annotations-25.0.0_80494bfce731ec8b60e0e21123de90463c56b309.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_80494bfce731ec8b60e0e21123de90463c56b309\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-transition-25.0.0_20673b32fdd631758a507f92894770f7e5316758.jar" />
+        sha1="b4254042686414077369410c9b65b8ff0e106eff">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_701cc8e31cbb007d77bbb2a0d53d14ed178ec9ac\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_72c8928533a3ea4d80840a57fc151658a1c6c2c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7c3f9d1fc0e4672ec6d1668c750dcdb277e01878\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_033b83b7d2aa070f8a699dc3f5a8110126a795c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-support-compat-25.0.0_c05d01c67328a95939374180478c517c70686677.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_c05d01c67328a95939374180478c517c70686677\classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\pre-dexed\release\com.android.support-design-25.0.0_33de4b0623501cf408317c75ac1e7b9b540bee5e.jar" />
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_33de4b0623501cf408317c75ac1e7b9b540bee5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee219dafbabd5cd59a5b7b03a65a9b0fb56b0114">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1cb6f077f4fc2825d6eefa42b5db22ad2cce8da0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_f977062eede76a6d676d0da113f97132548a4dd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_8e510477af6f3f7b68921626d8a8dd88b96f04ef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="C:\Users\Yue\AndroidProjects\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_20673b32fdd631758a507f92894770f7e5316758\classes.dex" />
     </item>
 
 </items>
