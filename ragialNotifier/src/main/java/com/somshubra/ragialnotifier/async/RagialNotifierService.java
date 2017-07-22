@@ -65,7 +65,7 @@ public class RagialNotifierService extends IntentService {
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 		final LinkedList<String> list = RagialQueryHelper.loadArray(prefs);
 
-		if(list.size() > 0) {
+		if(list != null && list.size() > 0) {
 			matcher = RagialQueryMatcher.getMatcher();
 			helper = new RagialQueryHelper(this);
 			helper.setCallbacks(new RagialQueryHelper.Callbacks() {

@@ -20,11 +20,13 @@
             <item>Renewal</item>
             <item>Classic</item>
             <item>Thor</item>
+            <item>Odin</item>
         </string-array>
         <string-array name="prefs_server_list_values">
             <item>1</item>
             <item>2</item>
             <item>3</item>
+            <item>4</item>
         </string-array>
 
         <string-array name="prefs_orientation">

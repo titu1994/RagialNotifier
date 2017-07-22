@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="63f261aaa99a472da837b2eb846143c44875ba6d">
+        sha1="468a7bc795126dc30c2506cc6ce15e3fa480ad28">
         <dex dex="D:\Users\Yue\AndroidStudioProjects\Ragial Searcher\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_a04e30a76ebedcfc3c8a911f09b68502a483b037\classes.dex" />
     </item>
     <item
@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e4ce79d28b795a7db785e684ed070b9affdb30e4">
+        sha1="afb998b36707c1e775dd4ca58c732adc77e40138">
         <dex dex="D:\Users\Yue\AndroidStudioProjects\Ragial Searcher\RagialNotifier\ragialNotifier\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a5e39c95e8451bcd658a6af5e1d4d4792d255fab\classes.dex" />
     </item>
     <item
